@@ -4,13 +4,17 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "serve": "start server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "mogodb": "^0.0.1-security",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3",
     "nodemon": "^3.1.4",
     "save-dev": "^0.0.1-security"
   }
